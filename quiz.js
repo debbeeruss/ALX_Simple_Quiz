@@ -17,9 +17,9 @@ function checkAnswer() {
 
     // Compare the user's answer with the correct answer
     if (userAnswer === correctAnswer) {
-        document.getElementById("feedback").textContent = "Correct!";
+        document.getElementById("feedback").textContent = "Correct! Well done.";
     } else {
-        document.getElementById("feedback").textContent = "Wrong!";
+        document.getElementById("feedback").textContent = "That's incorrect. Try again!";
     }
 }
 
